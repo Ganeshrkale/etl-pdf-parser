@@ -61,4 +61,3 @@ class Parse_and_upload_file:
                     destination_file_name, companyRegex, ordernumber_Regex, stockandsale_order, dateRegex,supplierRegex,parserType,double_regex=doubleRegex.replace("^", "'"),order_returns=c2dReturnsRegex,invoice=invoice_Regex,inv_date=invoice_DateRegex,inv_num=invoice_NumberRegex, inv_loc=invoice_LocRegex, inv_double_line=invoice_Double_Lined, inv_last_line=invoice_Last_Line, gross_amt_regex=invoice_Gross_Amt, ptr_dis_amt_total_regex=invoice_PtrDisc_Amt_Total, sp_dis_amt_pts_total_regex=invoice_SpDisc_Amt_Total,cgst_amt_regex=invoice_Cgst_Amt_Total, sgst_amt_regex=invoice_Sgst_Amt_Total, igst_amt_regex=invoice_Igst_Amt_Total, ugst_amt_regex=invoice_Ugst_Amt_Total,due_date_regex=invoice_Due_Date, erp_number_regex=erp_Number, is_auto=is_auto)
             
         return parse_temp_df,non_parse_temp_df
-
