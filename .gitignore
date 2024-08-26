@@ -1,0 +1,42 @@
+# Created by https://www.gitignore.io/api/osx,venv,macos,linux,python,django,pycharm,virtualenv
+
+### Flask ###
+
+__pycache__/
+
+.idea
+
+migrations/
+
+sqlproxy/
+
+docker-compose.yml
+
+/env/*
+
+/app/__pycache__/*
+
+/app/module/__pycache__/*
+
+/app/services/__pycache__/*
+
+/*.pdf
+
+/*.PDF
+
+tmp/
+
+get-pip.py
+
+test_controller.txt
+
+demo.py
+
+/Fitz/*
+/Plum_Fitz/*
+/Plumber/*
+/Tabula/*
+
+Sample Format (1).csv
+demo1.py
+test123.csv
